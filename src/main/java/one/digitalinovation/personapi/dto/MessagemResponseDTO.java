@@ -1,2 +1,11 @@
-package one.digitalinovation.personapi.dto;public class MessagemResponseDTO {
+package one.digitalinovation.personapi.dto;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class MessagemResponseDTO {
+    private String message;
 }
+
